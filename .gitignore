@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 
+# Environment variables === prevents accidentally uploading secret environment variables while allowing an example configuration file.
+.env
+.env.*
+!.env.example
+
+
